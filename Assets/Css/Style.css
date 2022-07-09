@@ -1,0 +1,328 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar-area{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(227,231,246,0),rgb(227,231,246,1));
+    padding: 20px 0px ;
+}
+.navbar{
+    position: relative;
+}
+.navbar-nav .nav-item{
+    position: relative;
+    margin-left: 40px;
+}
+.navbar-nav .nav-item .nav-button{
+    background-color:#bf0830;
+    border: none;
+    border-radius: 6px;
+    width: 150px;
+    height: 50px;
+
+}
+.header-hero{
+    position: relative;
+    background-image: linear-gradient(to right,rgb(227,231,246,0),rgb(227,231,246,1));
+    padding-top: 50px;
+    background-position: bottom center;
+}
+.header-hero-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #1a2578;
+    margin-bottom: 30px;
+}
+.header-hero-description{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 40px;
+}
+.header-hero .header-hero-btn1{
+    background-color:#bf0830;
+    border: none;
+    border-radius: 6px;
+    width: 140px;
+    height: 60px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: .0025em;
+
+}
+.header-hero-btn2{
+    background-color:#f8f9fd;
+    border: 1px solid #bf0830;
+    border-radius: 6px;
+    width: 140px;
+    height: 60px;
+    margin-bottom: 40px;
+    color: #bf0830;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: .0025em;
+
+}
+.brand-area .container{
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.brand-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 57px;
+    color: #1a2578;
+}
+.brand-heading span{
+    color: #bf0830;
+}
+.brand-carousal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.brand-carousel .item{
+    margin-right: 10px;
+    padding: 30px;
+}
+.brand-images{
+    margin-top:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.brand-images .slide{
+    margin: 0px 20px 0px 20px;
+}
+.product-area .container{
+    text-align: center;
+}
+.box-container .header-hero-btn2{
+    background-color:#ffffff;
+    border: 1px solid #bf0830;
+    border-radius: 6px;
+    width: 140px;
+    height: 60px;
+}
+.product-area .container{
+    margin-top: 6rem;
+}
+.product-heading{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color:#1a2578;
+    margin-bottom: 16px;
+}
+.product-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 3rem;
+}
+.product-img{
+    margin-bottom: 3rem;
+}
+.product-card-description{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 33px;
+}
+.box-container .box{
+    padding: 60px 60px 0px 60px;
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgb(22 23 72 / 7%), 0px 25px 35px rgb(22 23 72 / 5%);
+    text-align: left;
+    margin: 50px 0 50px 0px;
+    justify-content: space-between;
+}
+.award-banner{
+    background-image: linear-gradient(to right,rgb(227,231,246,0),rgb(227,231,246,1));
+}
+.team-banner{
+    background-image: linear-gradient(to right,rgb(227,231,246,0),rgb(227,231,246,1));
+}
+.awards-area .container .row{
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.award-text{
+    text-align:left ;
+}
+.awards-head{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color:#1a2578;
+    margin-bottom: 16px;
+}
+.awards-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px
+}
+.award-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.award-images .slide{
+    background-color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    width: 180px;
+    height: 180px;
+}
+.clients-area{
+    padding: 30px;
+}
+.clients-area .container{
+     margin-top: 6rem;
+}
+.clients-content{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.client-head{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color:#1a2578;
+}
+.client-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+.client-carousel .item{
+    box-shadow: 0px 0px 8px rgba(22,23,72,.07),0px 25px 35px rgba(22,23,72,.05);
+    margin-right: 10px;
+    padding: 30px;
+    border-radius: 8px;
+}
+.client-carousel{
+    padding: 40px;
+}
+.owl-stage-outer{
+    padding: 40px;
+}
+.owl-nav{
+    float: left;
+}
+.owl-nav span{
+    font-size: 40px;
+}
+.team-head{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color:#1a2578;
+    margin-bottom: 16px;
+}
+.team-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.team-area .container .row{
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-area .container .row .header-hero-btn2{
+    background-color:#fafafd;
+    border: 1px solid #bf0830;
+    border-radius: 6px;
+    width: 140px;
+    height: 60px;
+}
+.foot-area .container .row{
+        padding: 40px 0px 40px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.footer-area{
+    padding: 3rem 0;
+    background-color: #0d123c;
+    color: #fff;
+    text-align: left;
+}
+.footer-area ul{
+    padding-left: 0;
+}
+.footer-area ul li{
+    line-height: 36px;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 16px 0;
+}
+.footer-area a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-head{
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.footer-media ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.copyright-area{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 30px;
+}
