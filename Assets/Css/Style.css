@@ -173,6 +173,7 @@ a{
 }
 .award-banner{
     background-image: linear-gradient(to right,rgb(227,231,246,0),rgb(227,231,246,1));
+    overflow: hidden;
 }
 .team-banner{
     background-image: linear-gradient(to right,rgb(227,231,246,0),rgb(227,231,246,1));
